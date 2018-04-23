@@ -26,7 +26,8 @@ export interface IFunctionResponse {
         "expires"?: Date;
         "last-modified"?: Date;
         [s: string]: any;
-    }
+    },
+    isRaw?:boolean
 }
 
 export enum HttpStatusCodes {
