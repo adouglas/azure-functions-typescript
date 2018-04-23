@@ -28,6 +28,7 @@ export interface IFunctionResponse {
         "last-modified"?: Date;
         [s: string]: any;
     };
+    isRaw?:boolean;
 }
 export declare enum HttpStatusCodes {
     Continue = 100,
